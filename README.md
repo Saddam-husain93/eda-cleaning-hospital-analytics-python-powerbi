@@ -1,6 +1,6 @@
 # Hospital Analytics Dashboard
 
-**Portfolio Project | Python (Pandas) + Power BI**
+**Portfolio Project | Python (Pandas) | Matplotlib | NumPy | + Power BI**
 
 ## Project Overview
 This project analyzes hospital admission data to identify patterns in **patient volume, department performance, waiting times, length of stay, billing, revenue, admission type, primary condition, and insurance mix**.
