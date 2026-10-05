@@ -72,10 +72,10 @@ Department comparisons, admissions vs revenue, LOS vs bill, and admission-type w
 
 ## Repository Structure
 ```text
-Hospital-Analytics/
+eda-cleaning-hospital-analytics-python-powerbi/
 ├── data/
 │   ├── raw/
-│   └── cleaned/
+│   └── clean/
 ├── documentation/
 │   └──PROJECT_DOCUMENTATION.md
 ├── notebook/
