@@ -499,29 +499,22 @@ The workflow was:
 # 32.GitHub Structure
 
 ```text
-Hospital-Analytics/
-│
-├── README.md
-│
+eda-cleaning-hospital-analytics-python-powerbi/
 ├── data/
 │   ├── raw/
-│   └── cleaned/
-│
-├── notebooks/
-│   └── hospital_data_cleaning.ipynb
-│
+│   └── clean/
+├── documentation/
+│   └──PROJECT_DOCUMENTATION.md
+├── notebook/
+│   └── hospital_data_cleaning.ipynb Hospital_Dashboard.pbix
 ├── powerbi/
-│   ├── Hospital_Dashboard.pbix
-│   └── DAX_MEASURES.md
-│
+|    |__ DAX_MEASURES.md
+|    |__ Hospital_Dashboard.pbix
+|    |__ Hospital_Dashboard.pdf
+|
 ├── screenshots/
-│   ├── executive_overview.png
-│   ├── operational_analysis.png
-│   ├── revenue_patient_analysis.png
-│   └── hospital_insights.png
-│
-└── docs/
-    └── PROJECT_DOCUMENTATION.md
+│   
+└── README.md
 ```
 
 # 33. GitHub Screenshot Presentation
