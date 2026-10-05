@@ -1,7 +1,7 @@
 # Hospital Analytics Dashboard
 
 **Portfolio Project | June 2026 – August 2026**  
-**Tools:** Python, Pandas, Power BI, DAX  
+**Tools:** Python, Pandas,Matplotlib, NumPy, Power BI, DAX  
 **Dataset:** 15,000 hospital admission records  
 **Dashboard:** 4-page Power BI report
 
