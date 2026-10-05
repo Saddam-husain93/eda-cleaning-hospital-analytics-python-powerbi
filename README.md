@@ -76,13 +76,17 @@ Hospital-Analytics/
 ├── data/
 │   ├── raw/
 │   └── cleaned/
-├── notebooks/
-│   └── hospital_data_cleaning.ipynb
+├── documentation/
+│   └──PROJECT_DOCUMENTATION.md
+├── notebook/
+│   └── hospital_data_cleaning.ipynb Hospital_Dashboard.pbix
 ├── powerbi/
-│   └── Hospital_Dashboard.pbix
+|    |__ DAX_MEASURES.md
+|    |__ Hospital_Dashboard.pbix
+|    |__ Hospital_Dashboard.pdf
+|
 ├── screenshots/
-├── docs/
-│   └── project_documentation.md
+│   
 └── README.md
 ```
 
