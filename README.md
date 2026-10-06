@@ -27,7 +27,9 @@ Key fields: `Admission_ID`, `Patient_ID`, `Admission_Date`, `Discharge_Date`, `D
 - Checked admission/discharge date consistency using business rules.
 - Validated length of stay and performed final post-cleaning validation.
 
-### 2. Exploratory Data Analysis — Python/Pandas
+### 2.Exploratory Data Analysis — Python/Pandas & Matplotlib
+Performed in the same Jupyter Notebook using VS Code.
+
 Analyzed hospital operations and financial patterns, including:
 
 - Admission volume by department and admission type
@@ -39,8 +41,15 @@ Analyzed hospital operations and financial patterns, including:
 - Monthly admission and revenue trends
 - Doctor-level billing and admission patterns
 
+Created four focused Matplotlib visualizations to support
+interpretation of key operational and financial patterns.
+
+The EDA was used to identify operational bottlenecks,
+revenue concentration, and areas requiring further investigation.
+
 The analysis was used to identify operational bottlenecks,
 revenue concentration, and areas requiring further investigation.
+
 ## Power BI Dashboard
 
 ### Page 1 — Executive Overview
@@ -65,8 +74,19 @@ Department comparisons, admissions vs revenue, LOS vs bill, and admission-type w
 - What is the insurance mix and revenue contribution?
 - Are high-volume departments necessarily the highest-revenue departments?
 
-## Tools & Skills
-**Python/Pandas:** data cleaning, missing values, duplicates, text standardization, datetime analysis, outlier investigation, business-rule validation.
+#### Tools & Technologies
+
+- Python
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+- VS Code
+- Power BI
+- DAX
+  
+**Python/Pandas/Matplotlib:** data cleaning, missing values, duplicates, text standardization, datetime analysis, outlier investigation, business-rule validation.
+
+**Matplotlib:** Created four focused Matplotlib visualizations to support interpretation of key operational and financial patterns
 
 **Power BI/DAX:** KPI measures, DateTable/time analysis, interactive filtering, department analysis, dashboard design, business storytelling.
 
