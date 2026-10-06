@@ -1,4 +1,5 @@
 # Hospital Analytics Dashboard
+# eda-cleaning-hospital-analytics-python-powerbi
 
 **Portfolio Project | June 2026 – August 2026**  
 **Tools:** Python, Pandas,Matplotlib, NumPy, Power BI, DAX  
@@ -12,8 +13,6 @@
 This project analyzes hospital admission data to understand patient volume, department performance, waiting times, length of stay, billing, revenue, admission type, primary condition, and insurance mix.
 
 The project follows an end-to-end Data Analyst workflow with emphasis on data profiling, cleaning, validation, focused exploratory analysis, KPI development, dashboard design, and business storytelling.
-
-> **Scope note:** This is an operational and financial analytics project. It is not a clinical decision-support system.
 
 ## 2. Business Problem
 
@@ -157,9 +156,25 @@ Final validation covered missing values, duplicate rows, data types, date consis
 
 **Final dataset: 15,000 rows × 20 core fields.**
 
-## 12. Exploratory Data Analysis
+## 12. Exploratory Data Analysis — Python/Pandas & Matplotlib
+Performed in the same Jupyter Notebook using VS Code.
 
-EDA was intentionally focused on business questions. The analysis covered patient volume, department performance, waiting time, revenue, billing, LOS, admission type, primary condition, insurance mix, and repeat admissions.
+Analyzed hospital operations and financial patterns, including:
+
+- Admission volume by department and admission type
+- Repeat vs single-admission patients
+- Waiting time across departments and admission types
+- Revenue and average billing by department
+- Revenue and Length of Stay by primary condition
+- Insurance-wise admissions and revenue
+- Monthly admission and revenue trends
+- Doctor-level billing and admission patterns
+
+Created four focused Matplotlib visualizations to support
+interpretation of key operational and financial patterns.
+
+The EDA was used to identify operational bottlenecks,
+revenue concentration, and areas requiring further investigation..
 
 ## 13. Overall Hospital Metrics
 
@@ -455,7 +470,15 @@ The workflow was:
 
 **Raw Data → Profiling → Cleaning → Validation → EDA → Business Analysis → DAX → Power BI Dashboard → Insights**
 
-# 31. Skills Demonstrated
+# 31.Tools & Technologies
+
+- Python
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+- VS Code
+- Power BI
+- DAX
 
 ### Python / Pandas
 
@@ -517,10 +540,6 @@ eda-cleaning-hospital-analytics-python-powerbi/
 └── README.md
 ```
 
-# 33. GitHub Screenshot Presentation
-
-Use one full-width screenshot per dashboard page with a one-line explanation.
-
 ### Executive Overview
 
 > Management-level summary of hospital volume, revenue, waiting time, billing, and length of stay.
@@ -537,7 +556,7 @@ Use one full-width screenshot per dashboard page with a one-line explanation.
 
 > Combined volume, waiting-time, revenue, billing, and LOS relationships across departments and admission types.
 
-# 34. Future Improvements
+# 33. Future Improvements
 
 For a real hospital analytics engagement, the next stage could combine this dataset with:
 
@@ -555,7 +574,7 @@ For a real hospital analytics engagement, the next stage could combine this data
 
 These additions would allow deeper analysis of capacity utilization, causes of waiting time, cost efficiency, and patient experience.
 
-# 35. Final Summary
+# 34. Final Summary
 
 This project demonstrates the core Data Analyst workflow:
 
